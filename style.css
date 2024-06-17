@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(38, 16, 61);
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+    background-color: rgb(150, 125, 26);
+    width: 40vw;
+    margin-top: 1%;
+    border-radius: 15px;
+   
+   
+}
+
+.game{
+
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+   
+}
+
+.heading{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-weight: 800;
+}
+
+.scrambled{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    gap: 15px;
+    background-color: rgb(30, 37, 44);
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    border-radius: 15px;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+input{
+    
+    border-radius: 15px;
+    background-color: antiquewhite;
+    height: 35px;
+    padding-left: 10px;
+    width: 250px;
+    border: none;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    all:unset;
+    background-color: rgb(73, 5, 73);
+    padding: 7px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+
+    box-shadow: 1px 2px 2px rgb(41, 7, 7);
+}
+
+button:hover{
+    box-shadow: 3px 3px 3px rgb(41, 7, 7);
+}
+
+.scrambled span{
+    font-size: 50px;
+    
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.result{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(124, 103, 16);
+    border-radius: 15px;
+    height: 250px;
+    width: 230px;
+    padding: 10px 3px;
+    margin-top: 1%;
+    padding-right: 10px;
+}
+
+ol{
+    font-size: 13px;
+}
+
+.card h4{
+    font-family: "Playwrite FR Moderne", cursive;
+    text-align: center;
+}

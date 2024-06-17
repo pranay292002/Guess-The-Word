@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GuessTheWord</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="rules card">
+        <h4>Rules</h4>
+
+        <ol type="1">
+          <li>Each Correct Answer has 1 point</li>
+          <li>Each Wrong Answer has 1 Negative point</li>
+          <li>Changing word will Not affect points</li>
+          <li>You have to Answer within 30 seconds</li>
+          <li>If can't it will Deduct 1 point</li>
+        </ol>
+      </div>
+
+      <div class="container-fluid main">
+        <h2 class="heading">Guess The Word</h2>
+
+        <div class="game">
+          <div class="scrambled"></div>
+
+          <div class="hint">
+            Hint: <span id="hint-text">Hint will appear here</span>
+          </div>
+
+          <div class="timer">
+            <span>Time Remaining</span> <span id="time">30</span
+            ><span>s.</span>
+          </div>
+
+          <div class="input">
+            <input type="text" placeholder="Type Your Answer..." />
+
+            <h6><span>Points Scored:</span> <span id="points">0</span></h6>
+          </div>
+
+          <div class="buttons">
+            <button class="guess">Check</button>
+            <button class="start">Start</button>
+            <button class="reset">Reset</button>
+          </div>
+
+          <div class="result"></div>
+        </div>
+      </div>
+
+      <div class="info card">
+        <h4>Info</h4>
+
+        <ol type="1">
+          <li>You have to Guess the word from Shuffled Characters</li>
+          <li>After starting the game Timer will Start</li>
+          <li>You can always Reset the game by clicking Reset button</li>
+          <li>If you don't know the answer you can Change word</li>
+          <li>Let's Play !</li>
+        </ol>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
